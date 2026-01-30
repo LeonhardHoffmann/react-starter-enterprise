@@ -51,10 +51,12 @@ This structure is inspired by real enterprise React applications.
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - Node.js >= 18
 - npm >= 9
 
 ### Installation
+
 ```bash
 git clone https://github.com/rohitpatel0011/react-starter-enterprise.git
 cd react-starter-enterprise
@@ -68,13 +70,15 @@ App will run at:
 ---
 
 ## 📜 Available Scripts
-- `npm run dev`       # Start development server
-- `npm run build`     # Build for production
-- `npm run preview`   # Preview production build
+
+- `npm run dev` # Start development server
+- `npm run build` # Build for production
+- `npm run preview` # Preview production build
 
 ---
 
 ## 🤝 Contributing
+
 Contributions are welcome and encouraged 🙌
 Whether you're fixing a bug, improving docs, or suggesting a feature.
 
@@ -83,6 +87,7 @@ Please read **CONTRIBUTING.md** before submitting a Pull Request.
 ---
 
 ## 🗺️ Roadmap
+
 - ✅ ESLint + Prettier setup
 - ✅ Husky pre-commit hooks
 - ✅ GitHub Actions CI
@@ -92,7 +97,7 @@ Please read **CONTRIBUTING.md** before submitting a Pull Request.
 ---
 
 ## 📄 License
-This project is licensed under the **MIT License**.
 
----
+This project is licensed under the **MIT License** .
 
+---ß
