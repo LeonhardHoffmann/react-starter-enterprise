@@ -1,73 +1,98 @@
-# React + TypeScript + Vite
+# React Starter – Enterprise Ready 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, scalable, and open-source **enterprise-level React starter**
+built with best practices, clean architecture, and contributor-friendly setup.
 
-Currently, two official plugins are available:
+This project is designed to help developers learn **how real-world React applications are structured and maintained in teams**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ⚛️ React 18 + TypeScript
+- ⚡ Vite (fast dev & build)
+- 🧠 Enterprise-grade folder structure
+- ♻️ Scalable & maintainable architecture
+- 🤝 Open-source & contributor friendly
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🧰 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React** – UI library
+- **TypeScript** – Type safety
+- **Vite** – Build tool
+- **ESLint + Prettier** – Code quality (coming soon)
+- **GitHub Actions** – CI (coming soon)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 📁 Project Structure
+
+```
+src/
+├── app/          # App bootstrap & providers
+├── components/   # Reusable UI components
+├── features/     # Feature-based modules
+├── hooks/        # Custom hooks
+├── services/     # API & external services
+├── store/        # Global state
+├── styles/       # Global styles & themes
+├── utils/        # Helper functions
+├── types/        # Shared TypeScript types
+├── routes/       # Application routes
+└── main.tsx      # Entry point
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+This structure is inspired by real enterprise React applications.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js >= 18
+- npm >= 9
+
+### Installation
+```bash
+git clone https://github.com/rohitpatel0011/react-starter-enterprise.git
+cd react-starter-enterprise
+npm install
+npm run dev
 ```
+
+App will run at:
+👉 **http://localhost:5173**
+
+---
+
+## 📜 Available Scripts
+- `npm run dev`       # Start development server
+- `npm run build`     # Build for production
+- `npm run preview`   # Preview production build
+
+---
+
+## 🤝 Contributing
+Contributions are welcome and encouraged 🙌
+Whether you're fixing a bug, improving docs, or suggesting a feature.
+
+Please read **CONTRIBUTING.md** before submitting a Pull Request.
+
+---
+
+## 🗺️ Roadmap
+- ✅ ESLint + Prettier setup
+- ✅ Husky pre-commit hooks
+- ✅ GitHub Actions CI
+- ✅ Redux Toolkit integration
+- ✅ Authentication feature module
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License**.
+
+---
+
