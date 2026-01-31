@@ -35,6 +35,11 @@ button {
   transition: all;
 }
 
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 button:hover {
   transform: scale(1.02);
   cursor: pointer;
