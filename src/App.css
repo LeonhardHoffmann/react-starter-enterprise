@@ -1,42 +1,58 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.app {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1 {
+  font-size: 4rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  color: #ff00b3;
+  font-size: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+button {
+  background-color: white;
+  color: black;
+  display: block;
+  border: none;
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  font-size: large;
+  transition: all;
 }
 
-.card {
-  padding: 2em;
+button:hover {
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
-.read-the-docs {
-  color: #888;
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.headingDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#ghBtn {
+  background-color: #242424;
+  color: white;
+  border: #ff00b3 1px solid;
+}
+
+#docBtn {
+  background-color: white;
+  color: #ff00b3;
 }
